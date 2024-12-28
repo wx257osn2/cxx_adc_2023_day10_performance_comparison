@@ -9,7 +9,7 @@
   <PropertyGroup>
     <OutDir>$(SolutionDir).vs\$(ProjectName)\out\$(Platform)\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir).vs\$(ProjectName)\intermediate\$(Platform)\$(Configuration)\</IntDir>
-    <IncludePath>$(SolutionDir)thirdparty\entt\src;$(SolutionDir)include;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)thirdparty\entt\src;$(SolutionDir)thirdparty\boost\assert\include;$(SolutionDir)thirdparty\boost\config\include;$(SolutionDir)thirdparty\boost\container\include;$(SolutionDir)thirdparty\boost\intrusive\include;$(SolutionDir)thirdparty\boost\move\include;$(SolutionDir)include;$(VC_IncludePath);$(WindowsSDK_IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>

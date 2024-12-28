@@ -1,3 +1,18 @@
 [submodule "thirdparty/entt"]
 	path = thirdparty/entt
 	url = https://github.com/skypjack/entt
+[submodule "thirdparty/boost/assert"]
+	path = thirdparty/boost/assert
+	url = https://github.com/boostorg/assert
+[submodule "thirdparty/boost/config"]
+	path = thirdparty/boost/config
+	url = https://github.com/boostorg/config
+[submodule "thirdparty/boost/container"]
+	path = thirdparty/boost/container
+	url = https://github.com/boostorg/container
+[submodule "thirdparty/boost/intrusive"]
+	path = thirdparty/boost/intrusive
+	url = https://github.com/boostorg/intrusive
+[submodule "thirdparty/boost/move"]
+	path = thirdparty/boost/move
+	url = https://github.com/boostorg/move

@@ -11,7 +11,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\entt.cpp" />
+    <ClCompile Include="src\game_object.cpp" />
+    <ClCompile Include="src\improved_game_object.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\old_style_game_object.cpp" />
+    <ClCompile Include="src\static_polymorph_game_object.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
